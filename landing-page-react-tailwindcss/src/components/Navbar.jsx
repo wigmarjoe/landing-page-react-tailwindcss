@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
   return (
-    <nav className='pt-4'>
+    <nav className='pt-4 mb-8 md:mb-0'>
         <div className='flex items-center justify-between'>
             <h4 className='text-3xl font-bold text-sky-600 italic'>Logo</h4>
             <div className='space-x-6 hidden md:block'>
