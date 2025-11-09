@@ -16,11 +16,13 @@ const Navbar = () => {
             <button className='md:hidden font-medium text-lg' onClick={() => setIsOpen(!isOpen)}>|||</button>
         </div>
         {isOpen &&
-            <div className='md:hidden flex flex-col justify-center bg-white py-2 space-y-3'>
+            <div className='md:hidden flex flex-col items-center bg-white py-2 space-y-3'>
               <a href="" className='hover:underline font-medium'>Home</a>
               <a href="" className='hover:underline font-medium'>Features</a> 
               <a href="" className='hover:underline font-medium'>About</a>  
               <a href="" className='hover:underline font-medium'>Contact</a>
+            <button className='px-4 py-1.5 bg-sky-600 text-amber-300 font-medium hover:bg-sky-800'>Login</button>
+
             </div>
         }
     </nav>
